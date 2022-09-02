@@ -1,0 +1,12 @@
+rg_name                                  = "myrg"
+location                                 = "westus3"
+afd_sku                                  = "Premium_AzureFrontDoor"
+vnet_name                                = "myvnet"
+vnet_address_space                       = ["10.0.0.0/16"]
+bastion_subnet_address_prefixes          = ["10.0.0.0/24"]
+private_endpoint_subnet_address_prefixes = ["10.0.1.0/24"]
+host_subnet_address_prefixes             = ["10.0.2.0/24"]
+bastion_name                             = "mybastionhost"
+host_name                                = "myhost202209"
+host_username                            = "azureadmin"
+host_password                            = "yourpassword!"
